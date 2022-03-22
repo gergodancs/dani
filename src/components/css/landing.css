@@ -1,0 +1,73 @@
+.landing__container {
+  height: 105vh;
+  width: 100%;
+}
+.dani {
+  margin-top: 50px;
+  width: 35%;
+}
+.landing {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  column-gap: 10rem;
+}
+h1 {
+  margin-top: 160px;
+  font-size: 46px;
+  color: white;
+  letter-spacing: 0.1em;
+}
+h4 {
+  font-size: 36px;
+  color: #555;
+  letter-spacing: 0.1em;
+}
+button {
+  margin-top: 80px;
+  width: 300px;
+  height: 50px;
+  background: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.65),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.4),
+    inset -2px -2px 10px rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  outline: none;
+  color: #222;
+  font-weight: 600;
+}
+button:hover {
+  transform: scale(0.98);
+}
+@media screen and (max-width: 762px) {
+  .dani {
+    margin-top: 80px;
+    width: 300px;
+  }
+  button {
+    margin-top: 0;
+  }
+  .landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .cimsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    margin-top: 30px;
+  }
+}
