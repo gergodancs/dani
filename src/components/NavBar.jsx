@@ -12,16 +12,13 @@ const NavBar = () => {
       />
       <ul className={`nav__menu`}>
         <li>
-          <a href="#landing">Home</a>
+          <a href="#about">Rólam</a>
         </li>
         <li>
           <a href="#exp">Szakterületek</a>
         </li>
         <li>
-          <a href="#about">Rólam</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Kapcsolat</a>
         </li>
       </ul>
     </nav>
