@@ -71,3 +71,11 @@ button:hover {
     margin-top: 30px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
