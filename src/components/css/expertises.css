@@ -1,12 +1,21 @@
 .exp__container {
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   row-gap: 1rem;
   column-gap: 3rem;
   margin: 10px 50px;
   margin-bottom: 80px;
+}
+.elso-container,
+.masodik-container {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .exp__cards {
@@ -29,7 +38,7 @@ footer {
   padding-top: 10px;
 }
 .exp__cards.sm {
-  height: auto;
+  height: 350px;
 }
 h3 {
   color: white;
@@ -61,6 +70,7 @@ p {
 }
 .exp__cards.map {
   width: 500px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +85,7 @@ p {
 }
 
 iframe {
-  height: 380px;
+  height: 415px;
   width: 450px;
   border-radius: 20px;
 }
@@ -144,14 +154,58 @@ p {
 li {
   line-height: 1.5rem;
 }
+
+@media screen and (min-width: 1800px) {
+  .exp__cards.sm,
+  .exp__cards {
+    width: 25%;
+  }
+  .exp__cards.edu {
+    width: 1650px;
+  }
+  .datas {
+    width: 100%;
+  }
+  iframe {
+    width: 740px;
+  }
+  .exp__cards.map {
+    width: 820px;
+    padding: 30px;
+  }
+  .data__container {
+    width: 800px;
+  }
+  .contact__container {
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .elso-container,
+  .masodik-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .exp__cards {
+    width: 80%;
+    height: auto;
+  }
+  .exp__cards.sm {
+    width: 80%;
+    height: auto;
+  }
+}
 @media screen and (max-width: 762px) {
   .about__container {
     width: 100%;
     row-gap: 1rem;
   }
-  .exp__cards {
+  .exp__cards,
+  .exp__cards.sm {
     height: auto;
-    width: 350px;
+    width: 95%;
   }
   .exp__cards.edu {
     width: 80%;
@@ -173,5 +227,11 @@ li {
   p {
     font-size: 0.6rem;
     text-align: justify;
+  }
+  .elso-container,
+  .masodik-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
   }
 }
