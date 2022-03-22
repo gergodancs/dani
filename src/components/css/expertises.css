@@ -161,7 +161,7 @@ li {
     width: 25%;
   }
   .exp__cards.edu {
-    width: 1650px;
+    width: 74%;
   }
   .datas {
     width: 100%;
@@ -195,6 +195,9 @@ li {
   .exp__cards.sm {
     width: 80%;
     height: auto;
+  }
+  .exp__cards.map {
+    margin-top: 35px;
   }
 }
 @media screen and (max-width: 762px) {
