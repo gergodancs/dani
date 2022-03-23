@@ -1,7 +1,7 @@
 .navBar {
   height: 80px;
   display: flex;
-  background: #181818;
+  background: #181818a6;
   align-items: center;
   width: 100vw;
   position: fixed;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 2rem;
+  column-gap: 3rem;
   list-style-type: none;
 }
 a {
@@ -30,6 +30,11 @@ a {
   font-size: 22px;
   letter-spacing: 0.1em;
   font-family: "Roboto";
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+nav > ul > li:hover {
+  transform: scale(0.9);
 }
 @media screen and (max-width: 762px) {
   a {

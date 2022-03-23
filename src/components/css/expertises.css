@@ -163,6 +163,11 @@ li {
   .exp__cards.edu {
     width: 74%;
   }
+  p {
+    font-size: 1.3em;
+    line-height: 1.7em;
+  }
+
   .datas {
     width: 100%;
   }
@@ -178,6 +183,16 @@ li {
   }
   .contact__container {
     column-gap: 2rem;
+  }
+  li {
+    line-height: 2rem;
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  .exp__cards.sm {
+    padding-top: 40px;
   }
 }
 
@@ -215,6 +230,9 @@ li {
   }
   .datas {
     width: 80%;
+  }
+  h5 {
+    font-size: 0.8em;
   }
   .data__container {
     align-items: center;

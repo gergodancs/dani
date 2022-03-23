@@ -42,6 +42,24 @@ button {
 button:hover {
   transform: scale(0.98);
 }
+@media screen and (min-width: 2100px) {
+  h1,
+  h4 {
+    font-size: 6em;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 762px) {
   .dani {
     margin-top: 80px;
@@ -69,13 +87,5 @@ button:hover {
   }
   h1 {
     margin-top: 30px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .landing {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
