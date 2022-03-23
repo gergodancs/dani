@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dani/static/css/main.fd8dd622.css",
+    "main.css": "/dani/static/css/main.95293627.css",
     "main.js": "/dani/static/js/main.01aac71a.js",
     "static/media/danijo.png": "/dani/static/media/danijo.21d640261c15aa6e7b18.png",
     "static/media/contr.png": "/dani/static/media/contr.52ea4d6163a05a916993.png",
     "static/media/kdp__logo.png": "/dani/static/media/kdp__logo.39516b8a9a8ee61312ab.png",
     "index.html": "/dani/index.html",
-    "main.fd8dd622.css.map": "/dani/static/css/main.fd8dd622.css.map",
+    "main.95293627.css.map": "/dani/static/css/main.95293627.css.map",
     "main.01aac71a.js.map": "/dani/static/js/main.01aac71a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd8dd622.css",
+    "static/css/main.95293627.css",
     "static/js/main.01aac71a.js"
   ]
 }
